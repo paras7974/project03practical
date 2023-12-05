@@ -1,0 +1,40 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+   <form action="LoginCtl" method="post">
+   
+   <br><br><br><br><br>
+   <div align="center">
+   <h1>LOGIN VIEW</h1>
+   <table>
+   <br>
+       <div>
+           <label>Login</label>
+           <input type="text" name ="login" placeholder="ENTER LOGINID"> <br><br>
+       </div>
+       
+        <div>
+          <label>Password</label>
+          <input type="text" name ="password" placeholder="ENTER PASSWORD"><br><br>
+        
+        </div>
+        
+        <br> <div class="text-center">
+        
+          <input type="submit" name = "operation" value="SignIn">
+        </div>
+   
+   
+   
+   </table>
+   </div>
+   
+   </form>
+</body>
+</html>

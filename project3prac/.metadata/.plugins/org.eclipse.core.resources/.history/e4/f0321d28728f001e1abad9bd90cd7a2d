@@ -1,0 +1,32 @@
+package com.rays.test;
+
+import com.rays.dto.UserDto;
+import com.rays.model.UserModelHibImp;
+
+public class TestUser {
+	
+	public static void main(String[] args) throws Exception{
+		
+		testAdd();
+		
+	}
+
+	private static void testAdd() throws Exception {
+		
+		UserModelHibImp model = new UserModelHibImp();
+		
+		UserDto dto = new UserDto();
+		
+		dto.setId(4);
+		dto.setFirstName("deepak");
+		dto.setLastName("patidar");
+		dto.setLogin("fgh");
+		dto.setPassword("7895");
+		dto.setAddress("dfgh");
+		
+		model.add(dto);
+		
+		
+	}
+
+}

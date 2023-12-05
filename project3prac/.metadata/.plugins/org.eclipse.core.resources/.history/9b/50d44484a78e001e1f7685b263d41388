@@ -1,0 +1,69 @@
+package com.rays.model;
+
+import java.util.List;
+
+import org.hibernate.HibernateException;
+import org.hibernate.Query;
+import org.hibernate.Session;
+import org.hibernate.Transaction;
+
+import com.rays.dto.UserDto;
+import com.rays.util.HibDataSource;
+
+public class UserModelHibImp implements UserModelInt {
+
+	public long add(UserDto dto) throws Exception{
+		
+		System.out.println("step3");
+		
+		Session session = HibDataSource.getSession();
+		Transaction tx = null;
+		try{
+			tx = session.beginTransaction();
+
+			System.out.println("trac");
+			session.save(dto);
+			System.out.println("trac1");
+			dto.getId();
+			System.out.println("trac3");
+			tx.commit();
+		} catch (HibernateException e) {
+			e.printStackTrace();
+			// TODO: handle exception
+			if (tx != null) {
+				tx.rollback();
+
+			}
+			//throw new ApplicationException("Exception in User Add " + e.getMessage());
+		} finally {
+			session.close();
+		}
+		return dto.getId();
+	
+	}
+	
+	public UserDto authenticate(String login, String password)throws Exception{
+		
+		UserDto dto = null;
+		Session session = HibDataSource.getSession();
+		
+		 Query q = session.createQuery("from UserDto where login=?, password = ?");
+		
+		 q.setString(0, login);
+		 q.setString(1, password);
+		 
+		List list = q.list();
+		
+		if (list.size()>0) {
+		dto =	(UserDto)list.get(0);
+		}else {
+			dto b= null;
+		}
+		return ;
+		
+		
+	}
+	
+	
+
+}

@@ -1,0 +1,52 @@
+package com.rays.ctl;
+
+import java.io.IOException;
+
+import javax.servlet.RequestDispatcher;
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import com.rays.dto.UserDto;
+import com.rays.model.UserModelHibImp;
+
+
+@WebServlet("/LoginCtl")
+public class LoginCtl extends HttpServlet{
+	
+	public static final String OP_SIGN_IN = "SignIn";
+	@Override
+	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+		// TODO Auto-generated method stub
+		super.doGet(req, resp);
+	}
+	
+	@Override
+	protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+
+	String op =	req.getParameter("operation");
+	
+	UserModelHibImp userModel = new UserModelHibImp();
+	
+	
+	if(OP_SIGN_IN.equalsIgnoreCase(op)) {
+		UserDto dto = new UserDto();
+	 
+		
+		dto.setLogin(req.getParameter("login"));
+		dto.setPassword(req.getParameter("password"));
+		
+		dto =  userModel.authenticate(dto.getLogin(), dto.getPassword());
+		
+		if(dto != null) {
+			
+			RequestDispatcher rd = req.getRequestDispatcher("Login.jsp");
+		}else {
+			RequestDispatcher rd = req.getRequestDispatcher("Invalid.jsp");
+		}
+	}	
+	}
+
+}

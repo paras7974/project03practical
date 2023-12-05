@@ -1,0 +1,78 @@
+
+Nov 28, 2023 14:09:02.13 NEW SESSION
+Nov 28, 2023 14:09:02.13 [8668:6956:1128/140902.132:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+
+Nov 28, 2023 16:24:57.18 NEW SESSION
+Nov 28, 2023 16:24:57.18 [6152:5840:1128/162457.172:ERROR:connection_factory_impl.cc(471)] ConnectionHandler failed with net error: -2
+Nov 28, 2023 16:33:30.81 [6152:11748:1128/163330.660:ERROR:device_event_log_impl.cc(192)] [16:33:30.667] USB: usb_service_win.cc:104 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+Nov 28, 2023 17:01:28.75 [6152:5840:1128/170128.759:ERROR:connection_factory_impl.cc(471)] ConnectionHandler failed with net error: -2
+Nov 28, 2023 17:07:51.66 [6152:11748:1128/170751.660:ERROR:device_event_log_impl.cc(192)] [17:07:51.661] USB: usb_service_win.cc:104 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+Nov 28, 2023 17:18:49.85 [6152:5840:1128/171849.856:ERROR:connection_factory_impl.cc(471)] ConnectionHandler failed with net error: -2
+
+Nov 30, 2023 13:01:57.47 NEW SESSION
+Nov 30, 2023 13:01:57.47 [2060:2124:1130/130157.455:ERROR:connection_factory_impl.cc(471)] ConnectionHandler failed with net error: -2
+Nov 30, 2023 13:16:49.65 [2060:7272:1130/131649.655:ERROR:device_event_log_impl.cc(192)] [13:16:49.663] USB: usb_service_win.cc:104 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+Nov 30, 2023 13:16:55.37 [2060:2124:1130/131655.371:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Nov 30, 2023 13:22:11.16 [2060:2124:1130/132211.160:ERROR:connection_factory_impl.cc(471)] ConnectionHandler failed with net error: -2
+Nov 30, 2023 14:09:09.78 [2060:7272:1130/140909.661:ERROR:device_event_log_impl.cc(192)] [14:09:09.663] USB: usb_service_win.cc:104 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+Nov 30, 2023 14:09:13.33 [2060:2124:1130/140913.338:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+Nov 30, 2023 15:36:10.47 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Nov 30, 2023 16:06:09.61 [2060:2124:1130/160609.612:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+Nov 30, 2023 16:06:10.31 [2060:7272:1130/160610.310:ERROR:device_event_log_impl.cc(192)] [16:06:10.303] USB: usb_service_win.cc:104 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+Nov 30, 2023 16:06:11.71 [2060:2124:1130/160611.716:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Nov 30, 2023 16:06:25.96 [2060:2124:1130/160625.961:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+Nov 30, 2023 16:06:35.27 [2060:2124:1130/160635.270:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+Nov 30, 2023 16:06:37.29 [2060:2124:1130/160637.298:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+Nov 30, 2023 16:06:43.71 [2060:2124:1130/160643.713:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+Nov 30, 2023 16:06:49.21 [2060:2124:1130/160649.213:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+Nov 30, 2023 16:09:01.21 [2060:2124:1130/160901.219:ERROR:connection_factory_impl.cc(471)] ConnectionHandler failed with net error: -2
+Nov 30, 2023 16:10:55.49 [2060:2124:1130/161055.497:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Nov 30, 2023 16:42:55.95 [1244:3300:1130/164255.950:ERROR:connection_factory_impl.cc(471)] ConnectionHandler failed with net error: -2
+Nov 30, 2023 16:46:18.65 [1244:7856:1130/164618.659:ERROR:device_event_log_impl.cc(192)] [16:46:18.659] USB: usb_service_win.cc:104 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+Nov 30, 2023 16:49:39.54 [1244:3300:1130/164939.544:ERROR:connection_factory_impl.cc(471)] ConnectionHandler failed with net error: -2
+Nov 30, 2023 16:51:15.65 [1244:7856:1130/165115.654:ERROR:device_event_log_impl.cc(192)] [16:51:15.657] USB: usb_service_win.cc:104 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+Nov 30, 2023 17:10:31.91 [1244:3300:1130/171031.916:ERROR:connection_factory_impl.cc(471)] ConnectionHandler failed with net error: -2
+Nov 30, 2023 17:25:33.97 [1244:7856:1130/172533.972:ERROR:device_event_log_impl.cc(192)] [17:25:33.959] USB: usb_service_win.cc:104 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+Nov 30, 2023 17:25:36.22 [1244:3300:1130/172536.224:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Nov 30, 2023 18:35:47.39 [14104:12992:1130/183547.397:ERROR:connection_factory_impl.cc(471)] ConnectionHandler failed with net error: -2
+Nov 30, 2023 21:35:48.78 [14104:10592:1130/213548.653:ERROR:device_event_log_impl.cc(192)] [21:35:48.654] USB: usb_service_win.cc:104 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+Nov 30, 2023 21:35:48.78 [14104:12992:1130/213548.684:ERROR:connection_factory_impl.cc(471)] ConnectionHandler failed with net error: -2
+Nov 30, 2023 21:35:48.78 [14104:12992:1130/213548.732:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+Dec 01, 2023 11:31:25.02 [14104:12992:1201/113125.026:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Dec 01, 2023 11:31:25.04 [14104:12992:1201/113125.042:ERROR:checkin_request.cc(243)] Check-in request got net error: -106
+Dec 01, 2023 11:31:25.04 [14104:5116:1201/113125.042:ERROR:get_updates_processor.cc(263)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_INTERNET_DISCONNECTED)
+Dec 01, 2023 11:31:57.27 [14104:12992:1201/113157.256:ERROR:connection_factory_impl.cc(471)] ConnectionHandler failed with net error: -2
+
+Dec 02, 2023 13:56:31.33 NEW SESSION
+Dec 02, 2023 13:56:31.33 [13176:12416:1202/135631.316:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Dec 02, 2023 14:04:14.06 [13176:12416:1202/140414.067:ERROR:connection_factory_impl.cc(471)] ConnectionHandler failed with net error: -2
+Dec 02, 2023 14:04:38.66 [13176:12992:1202/140438.669:ERROR:device_event_log_impl.cc(192)] [14:04:38.673] USB: usb_service_win.cc:104 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+Dec 02, 2023 14:04:43.73 [13176:12416:1202/140443.739:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Dec 02, 2023 14:04:56.69 [13176:12416:1202/140456.677:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+Dec 02, 2023 15:14:05.94 [13176:12416:1202/151405.940:ERROR:connection_factory_impl.cc(471)] ConnectionHandler failed with net error: -2
+Dec 02, 2023 15:21:37.65 [13176:12992:1202/152137.654:ERROR:device_event_log_impl.cc(192)] [15:21:37.656] USB: usb_service_win.cc:104 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+Dec 02, 2023 15:21:40.40 [13176:12416:1202/152140.405:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Dec 02, 2023 16:10:07.72 [13176:12416:1202/161007.728:ERROR:connection_factory_impl.cc(471)] ConnectionHandler failed with net error: -2
+Dec 02, 2023 16:29:20.47 [13176:12416:1202/162920.473:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Dec 02, 2023 17:52:14.57 [13176:12416:1202/175214.559:ERROR:connection_factory_impl.cc(471)] ConnectionHandler failed with net error: -2
+Dec 02, 2023 17:53:37.65 [13176:12992:1202/175337.654:ERROR:device_event_log_impl.cc(192)] [17:53:37.653] USB: usb_service_win.cc:104 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+Dec 02, 2023 18:46:06.06 [13176:12416:1202/184606.062:ERROR:connection_factory_impl.cc(471)] ConnectionHandler failed with net error: -2
+Dec 02, 2023 19:13:46.78 [13176:12992:1202/191346.659:ERROR:device_event_log_impl.cc(192)] [19:13:46.657] USB: usb_service_win.cc:104 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+Dec 02, 2023 19:13:46.96 [13176:12416:1202/191346.969:ERROR:connection_handler_impl.cc(472)] Timed out waiting for GCM Protocol buffer.
+Dec 02, 2023 19:13:46.96 [13176:12416:1202/191346.969:ERROR:connection_factory_impl.cc(471)] ConnectionHandler failed with net error: -7
+
+Dec 04, 2023 13:31:10.11 NEW SESSION
+Dec 04, 2023 13:31:10.11 [292:14324:1204/133110.111:ERROR:connection_factory_impl.cc(471)] ConnectionHandler failed with net error: -2
+Dec 04, 2023 14:38:09.78 [292:10656:1204/143809.665:ERROR:device_event_log_impl.cc(192)] [14:38:09.657] USB: usb_service_win.cc:104 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+Dec 04, 2023 14:38:10.82 [292:14324:1204/143810.824:ERROR:connection_factory_impl.cc(471)] ConnectionHandler failed with net error: -2
+Dec 04, 2023 15:12:54.27 [5804:6816:1204/151254.271:ERROR:connection_factory_impl.cc(471)] ConnectionHandler failed with net error: -2
+Dec 04, 2023 15:32:14.65 [5804:15216:1204/153214.655:ERROR:device_event_log_impl.cc(192)] [15:32:14.655] USB: usb_service_win.cc:104 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+Dec 04, 2023 15:56:21.90 [5804:15216:1204/155621.903:ERROR:device_event_log_impl.cc(192)] [15:56:21.901] USB: usb_service_win.cc:104 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+
+Dec 04, 2023 21:50:35.32 NEW SESSION
+Dec 04, 2023 21:50:35.32 [7180:12116:1204/215035.319:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Dec 04, 2023 21:58:09.08 [7572:11632:1204/215809.085:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Dec 04, 2023 21:58:33.58 [7572:11632:1204/215833.581:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Dec 04, 2023 21:59:25.87 [7572:11632:1204/215925.870:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Dec 04, 2023 22:00:47.28 [7572:11632:1204/220047.286:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Dec 04, 2023 22:04:40.45 [7572:11632:1204/220440.453:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
